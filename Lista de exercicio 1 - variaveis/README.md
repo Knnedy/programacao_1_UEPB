@@ -4,9 +4,9 @@
 Professora: Kézia de Vasconcelos Oliveira Dantas<br>
 Disciplina: AlgoritmosLista de Exercícios I – Unidade I
 
-1. Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].<br><br>
+1. Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].<br>
 
-2. Faça um Programa que peça dois números e imprima a soma.<br><br>
+2. Faça um Programa que peça dois números e imprima a soma.<br>
 
 3. Faça um Programa que peça as 4 notas bimestrais e mostre a média.<br><br>
 
