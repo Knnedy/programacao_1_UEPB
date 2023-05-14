@@ -3,7 +3,7 @@
 
 <i>Professora: Kézia de Vasconcelos Oliveira Dantas<br>
 Disciplina: Algoritmos<br>
-Lista de Exercícios I – Unidade I</i>
+Lista de Exercícios I – Unidade I</i><br><br>
 
 [1.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_01.py)
 Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].<br>
