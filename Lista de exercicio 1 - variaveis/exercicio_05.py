@@ -27,4 +27,3 @@ diametro_circulo = calcular_diametro(raio_circulo)
 print(f'A área do círculo é: {raio_circulo:.2f}'
       f'\nA circunferência é: {circunferencia_circulo:.2f}'
       f'\nO diâmetro é: {diametro_circulo:.2f}')
-
