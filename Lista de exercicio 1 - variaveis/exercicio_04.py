@@ -3,4 +3,4 @@
 metros = int(input('Digite o valor em metros: '))
 centimetros = metros * 100
 
-print(f'{metros}m é igual a: {centimetros}cm')
+print(f'{metros} metros é igual a: {centimetros} centimetros')
