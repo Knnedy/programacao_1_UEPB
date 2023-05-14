@@ -15,7 +15,7 @@ Faça um Programa que peça dois números e imprima a soma.<br>
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
 [4.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_04.py)
-Faça um Programa que converta metros para centímetros.<br><br>
+Faça um Programa que converta metros para centímetros.
 
 [5.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_05.py)
 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
