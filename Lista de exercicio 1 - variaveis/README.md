@@ -35,6 +35,7 @@ temperatura em graus Celsius. C = (5 * (F-32) / 9).
 [9.]()
 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre<br>
 em graus Farenheit.
+
 [10.]()
 Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$) de<br>
 um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar<br>
