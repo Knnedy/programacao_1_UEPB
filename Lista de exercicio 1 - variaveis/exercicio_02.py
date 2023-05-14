@@ -1,10 +1,10 @@
 # Faça um Programa que peça dois números e imprima a soma
 
-numeros = []
+lista_numeros = []
 soma = 0
 for i in range(2):
 	num = int(input('Digite um número: '))
-	numeros.append(num)
+	lista_numeros.append(num)
 	soma += num
 
-print(f'A soma de {numeros[0]} e {numeros[1]} é:', soma)
+print(f'A soma de {lista_numeros[0]} e {lista_numeros[1]} é:', soma)
