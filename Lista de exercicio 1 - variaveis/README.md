@@ -4,23 +4,31 @@
 Professora: Kézia de Vasconcelos Oliveira Dantas<br>
 Disciplina: AlgoritmosLista de Exercícios I – Unidade I
 
-1. Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].<br>
+[1.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_01.py)
+Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].<br>
 
-2. Faça um Programa que peça dois números e imprima a soma.<br>
+[2.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_02.py)
+Faça um Programa que peça dois números e imprima a soma.<br>
 
-3. Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+[3.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_03.py)
+Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
-4. Faça um Programa que converta metros para centímetros.<br><br>
+[4.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_04.py)
+Faça um Programa que converta metros para centímetros.<br><br>
 
-5. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+[5.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_05.py)
+Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
-6. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro<br>
+[6.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_06.py)
+Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro<br>
 desta área para o usuário.
 
-7. Faça um Programa que pergunte quanto você ganha por hora e o número de horas<br>
+[7.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_07.py)
+Faça um Programa que pergunte quanto você ganha por hora e o número de horas<br>
 trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
-8. Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a<br> 
+[8.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_08.py)
+Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a<br> 
 temperatura em graus Celsius. C = (5 * (F-32) / 9).
 
 9. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre<br>
