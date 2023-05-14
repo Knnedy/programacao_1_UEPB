@@ -1,5 +1,4 @@
-# UNIVERSIDADE ESTADUAL DA PARAÍBA
-## Centro de Ciências e Tecnologia - CCT 
+# Centro de Ciências e Tecnologia - CCT 
 ## Departamento de Computação - Curso de Ciência da Computação
 
 Professora: Kézia de Vasconcelos Oliveira Dantas<br>
