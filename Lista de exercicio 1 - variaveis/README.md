@@ -32,20 +32,20 @@ trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a<br> 
 temperatura em graus Celsius. C = (5 * (F-32) / 9).
 
-[9.]()
+[9.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_09.py)
 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre<br>
 em graus Farenheit.
 
-[10.]()
+[10.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_010.py)
 Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$) de<br>
 um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar<br>
 e também a quantidade de dólares disponíveis com o usuário.
 
-[11.]()
+[11.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_011.py)
 Faça um algoritmo que receba um valor que foi depositado e exiba o valor com <br>
 rendimento após um mês. Considere fixo o juro da poupança em 0,70% a. m.
 
-[12.]()
+[12.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_012.py)
 A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros.<br>
 Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.
 
