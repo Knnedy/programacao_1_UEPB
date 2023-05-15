@@ -19,8 +19,8 @@ def main():
         try:
             valor_compra = float(input('Digite o valor total da compra: '))
             if valor_compra <= 0:
-                raise ValueError(f'{Fore.RED}{Style.BRIGHT}O valor total da compra deve ser '
-                                 f'maior que zero.{Fore.RESET}{Style.RESET_ALL}')
+                raise ValueError(f'{Fore.RED}{Style.BRIGHT}O valor total da compra deve'
+                                 f'ser maior que zero.{Fore.RESET}{Style.RESET_ALL}')
             break
         except ValueError as error:
             print(f'{Fore.RED}{Style.BRIGHT}Erro: {error}{Fore.RESET}{Style.RESET_ALL}')
