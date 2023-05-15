@@ -16,8 +16,8 @@ def exibir_temperatura_convertida(celsius):
 
 
 def main():
-    temp_farenheint = obter_temperatura_fahrenheit()
-    temp_celsius = converter_fahrenheit_para_celsius(temp_farenheint)
+    temp_fahrenheit = obter_temperatura_fahrenheit()
+    temp_celsius = converter_fahrenheit_para_celsius(temp_fahrenheit)
     exibir_temperatura_convertida(temp_celsius)
     
 
