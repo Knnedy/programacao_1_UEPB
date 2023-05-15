@@ -49,7 +49,7 @@ rendimento após um mês. Considere fixo o juro da poupança em 0,70% a. m.
 A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros.<br>
 Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.
 
-[13.]()
+[13.](https://github.com/Knnedy/programacao_1_UEPB/blob/master/Lista%20de%20exercicio%201%20-%20variaveis/exercicio_013.py)
 Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda.<br>
 Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado<br>
 pelo usuário.
