@@ -101,4 +101,4 @@ para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa
         Salário Bruto : R$IR (11%) : R$INSS (8%) : R$S <br>
         Sindicato ( 5%) : R$ <br>
         Salário Liquido : R$ <br>
-        <i>Obs.: Salário Bruto - Descontos = Salário Líquido.<i>
+        *Obs.: Salário Bruto - Descontos = Salário Líquido.*
