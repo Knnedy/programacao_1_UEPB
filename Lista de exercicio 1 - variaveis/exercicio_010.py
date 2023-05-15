@@ -42,6 +42,8 @@ def main():
     quantia_dolares = obter_qtd_dolares()
     quantia_em_reais = converter_dolares_para_reais(cotacao_hoje, quantia_dolares)
     exibir_valor_convertido(quantia_em_reais)
-    
-    
-main()
+
+
+if __name__ == '__main__':
+    main()
+
