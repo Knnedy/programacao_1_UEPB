@@ -11,4 +11,4 @@
 #         Salário Bruto : R$IR (11%) : R$INSS (8%) : R$S
 #         Sindicato ( 5%) : R$ <br>
 #         Salário Liquido : R$ <br>
-#         Obs.: Salário Bruto - Descontos = Salário Líquido.
+# Obs.: Salário Bruto - Descontos = Salário Líquido.
