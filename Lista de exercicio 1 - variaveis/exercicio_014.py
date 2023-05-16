@@ -14,7 +14,7 @@ def main():
         try:
             distancia_percorrida = float(input('Informe a distância percorrida em Km: '))
             combustivel_gasto = float(input('Informe o total gasto de combustível: '))
-            if distancia_percorrida <= 0:
+            if distancia_percorrida <= 0 and combustivel_gasto == 0:
                 raise ValueError(f'{Fore.RED}{Style.BRIGHT}O valor total da compra deve'
                                  f'ser maior que zero.{Fore.RESET}{Style.RESET_ALL}')
             break
