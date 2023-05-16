@@ -26,9 +26,10 @@ def main():
                                  f'positivos.{Fore.RESET}{Style.RESET_ALL}')
             break
         except ValueError as error:
-            print(f'{Fore.RED} {Style.BRIGHT}Erro: {error} {Fore.RESET} {Style.RESET_ALL}')
+            print(f'{Fore.RED}{Style.BRIGHT}Erro: {error}{Fore.RESET}{Style.RESET_ALL}')
             
     resultado = calcular_d(a, b, c)
+    
     print(f'O resultado da expressão é: {resultado}')
     
 
