@@ -22,9 +22,10 @@ def ler_dados_vendedor():
             total_vendas = int(input("Digite o total de vendas efetuadas no mês: "))
             
             if salario_fixo < 0 or total_vendas < 0:
-                raise ValueError(f'{Fore.RED}{Style.BRIGHT}'
-                                 f'O salário fixo e o total de vendas devem maior que 0.'
-                                 f'{Fore.RESET}{Style.RESET_ALL}')
+                raise ValueError(
+                    f'{Fore.RED}{Style.BRIGHT}'
+                    f'O salário fixo e o total de vendas devem maior que 0.'
+                    f'{Fore.RESET}{Style.RESET_ALL}')
             
             return nome_vendedor, salario_fixo, total_vendas
         except ValueError as error:
