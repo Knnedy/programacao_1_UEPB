@@ -67,8 +67,6 @@ def main():
         except ValueError as error:
             print(f'{Fore.RED}{Style.BRIGHT}Erro: {error}{Fore.RESET}{Style.RESET_ALL}')
     
-    print()
-
 
 if __name__ == '__main__':
     main()
