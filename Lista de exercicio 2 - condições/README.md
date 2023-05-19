@@ -1,1 +1,1 @@
-# Lista de exercicio 2 - condições
+# Lista de exercÍcio 2 - condições
