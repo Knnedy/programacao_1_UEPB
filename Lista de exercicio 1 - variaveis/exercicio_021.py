@@ -44,7 +44,8 @@ def main():
         
             if salario_hora <= 0 and horas_mensais <= 0:
                 raise ValueError(f'{Fore.RED}{Style.BRIGHT}O salário por hora e as horas '
-                                 f'mensais devem ser maiores que 0{Fore.RED}{Style.BRIGHT}')
+                                 f'mensais devem ser maiores que 0'
+                                 f'{Fore.RED}{Style.BRIGHT}')
             else:
                 salario_bruto = calcular_salario_bruto(salario_hora, horas_mensais)
                 desconto_imposto_renda = calcular_imposto_renda(salario_bruto)
