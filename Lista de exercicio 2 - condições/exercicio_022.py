@@ -15,14 +15,14 @@ def calcular_maior_numero(num1, num2):
 def main():
     while True:
         try:
-            n1 = int(input('Número 1: '))
-            n2 = int(input('Número 2: '))
-            if n1 < 0 and n2 < 0:
+            numero1 = int(input('Número 1: '))
+            numero2 = int(input('Número 2: '))
+            if numero1 < 0 and numero2 < 0:
                 raise ValueError(f'{Fore.RED}{Style.BRIGHT}'
                                  f'Digite um numero maior ou igual a 0'
                                  f'{Fore.RED}{Style.BRIGHT}')
             else:
-                maior_numero = calcular_maior_numero(n1, n2)
+                maior_numero = calcular_maior_numero(numero1, numero2)
                 
                 print(f'{maior_numero}')
                 break
