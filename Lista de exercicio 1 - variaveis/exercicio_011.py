@@ -30,8 +30,8 @@ def main():
             print('Tente novamente.\n')
     
     valor_total = calcular_valor_total(valor_do_deposito)
-    print(f'O valor total após um mês é de {Fore.GREEN}{Style.BRIGHT}R$ {round(valor_total, 2)}'
-          f'{Fore.RESET}{Style.RESET_ALL}')
+    print(f'O valor total após um mês é de {Fore.GREEN}{Style.BRIGHT}'
+          f'R${round(valor_total, 2)}{Fore.RESET}{Style.RESET_ALL}')
     
 
 if __name__ == '__main__':
