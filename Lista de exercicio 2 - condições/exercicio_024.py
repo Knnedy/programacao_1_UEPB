@@ -19,7 +19,7 @@ def main():
         try:
             sexo = str(input('Digite seu sexo, [M]asculino ou [F]eminino: ')).lower()
             if not sexo.isalpha():
-                raise ValueError(f'{Fore.RED} {Style.BRIGHT}Digite apenas letras.'
+                raise ValueError(f'{Fore.RED}{Style.BRIGHT}Digite apenas letras.'
                                  f'{Fore.RESET}{Style.RESET_ALL}')
             break
         except ValueError as error:
