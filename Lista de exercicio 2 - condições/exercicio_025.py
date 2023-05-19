@@ -45,7 +45,7 @@ def main():
                                  f' 0 e 10'
                                  f'{Fore.RESET}{Style.RESET_ALL}')
             
-            media = calcular_media_aluno(nota_1, nota_2,)
+            media = calcular_media_aluno(nota_1, nota_2)
             status_aluno = situacao_aluno(media)
             
             print(f'\nA média do aluno é: {media:.1f}')
