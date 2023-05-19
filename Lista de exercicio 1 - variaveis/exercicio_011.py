@@ -22,8 +22,8 @@ def main():
         try:
             valor_do_deposito = float(input('Digite o valor depositado: '))
             if valor_do_deposito <= 0:
-                raise ValueError(f'{Fore.RED}{Style.BRIGHT}O valor deve ser maior que zero.'
-                                 f'{Fore.RESET}{Style.RESET_ALL}')
+                raise ValueError(f'{Fore.RED}{Style.BRIGHT}O valor deve ser maior que '
+                                 f'zero.{Fore.RESET}{Style.RESET_ALL}')
             break
         except ValueError as error:
             print(f'{Fore.RED}{Style.BRIGHT}Erro: {error}{Fore.RESET}{Style.RESET_ALL}')
