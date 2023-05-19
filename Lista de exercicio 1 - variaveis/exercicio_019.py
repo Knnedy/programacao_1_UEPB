@@ -20,7 +20,7 @@ def main():
                                        'segundo (MBps)'))
             
             if tam_arquivo <= 0 and vel_internet <= 0:
-                raise ValueError('f{Fore.RED}{Style.BRIGHT}'
+                raise ValueError(f'{Fore.RED}{Style.BRIGHT}'
                                  'Tamanho do arquivo e velocidade da Internet devem ser '
                                  'maiores que zero.{Fore.RESET}{Style.RESET_ALL}')
             else:
