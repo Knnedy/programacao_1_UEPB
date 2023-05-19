@@ -14,7 +14,7 @@ def main():
             num = int(input('Digite um número: '))
             if num <= 0:
                 raise ValueError(f'{Fore.RED}{Style.BRIGHT}'
-                                 f'Digite um numero maior que 0'
+                                 f'Digite um numero maior que 0.'
                                  f'{Fore.RED}{Style.BRIGHT}')
             else:
                 numero_lido = exibir_numero(num)
