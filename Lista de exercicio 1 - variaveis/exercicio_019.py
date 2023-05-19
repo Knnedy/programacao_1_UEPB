@@ -20,8 +20,9 @@ def main():
                                        'segundo (MBps)'))
             
             if tam_arquivo <= 0 and vel_internet <= 0:
-                raise ValueError('Tamanho do arquivo e velocidade da Internet devem ser '
-                                 'maiores que zero.')
+                raise ValueError('f{Fore.RED}{Style.BRIGHT}'
+                                 'Tamanho do arquivo e velocidade da Internet devem ser '
+                                 'maiores que zero.{Fore.RESET}{Style.RESET_ALL}')
             else:
                 download_em_minutos = calcular_tempo_download(tam_arquivo, vel_internet)
                 print(f'O tempo aproximado de download é de: {download_em_minutos:.2f}')
