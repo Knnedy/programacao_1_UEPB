@@ -17,7 +17,7 @@ def calcular_soma_numeros():
             except ValueError:
                 print(f'{Fore.RED}{Style.BRIGHT}'
                       f'Entrada inválida. Digite um número inteiro.'
-                      f'{Fore.RED}{Style.BRIGHT}')
+                      f'{Fore.RESET}{Style.RESET_ALL}')
     
     return lista_numerica, soma
 
