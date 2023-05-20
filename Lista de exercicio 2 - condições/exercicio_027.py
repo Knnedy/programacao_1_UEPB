@@ -2,46 +2,50 @@
 # deve comprar, sabendo que a decisão é sempre pelo mais barato.
 
 
-def obter_preco_produto(nome_produto):
+def obter_dados_produto(numero_produto):
     while True:
-        try:
-            preco_prod = float(input(f'Digite o preço do {nome_produto}: '))
-            if preco_prod <= 0:
-                raise ValueError('Digite um valor maior que 0.')
-            return preco_prod
-        except ValueError:
-            print('Entrada inválida, digite um valor numérico!')
-            
-
-def obter_nome_produto(numero_produto):
-    return numero_produto
-
-
+        nome_produto = input(f'Digite o nome do produto {numero_produto}: ')
+        if not nome_produto.isalpha():
+            print('Nome do produto inválido. Digite apenas letras.')
+        else:
+            while True:
+                try:
+                    preco_prod = float(input(f'Digite o preco do produto '
+                                             f'{nome_produto}: '))
+                    print()
+                    if preco_prod < 0:
+                        raise ValueError('O preço não pode ser negativo.')
+                    return nome_produto, preco_prod
+                except ValueError as e:
+                    print(f'Entrada inválida: {e}')
+                
+      
 def encontrar_produto_mais_barato():
-    nome_p1 = str(input('Digite o nome do produto 1: '))
-    nome_p2 = str(input('Digite o nome do produto 2: '))
-    nome_p3 = str(input('Digite o nome do produto 3: '))
+    numero_produtos = 3
+    produtos = []
     
-    obter_nome_produto(nome_p1)
-    obter_nome_produto(nome_p2)
-    obter_nome_produto(nome_p3)
+    for i in range(numero_produtos):
+        nome_produto, preco_produto = obter_dados_produto(i + 1)
+        produtos.append((nome_produto, preco_produto))
     
-    preco_p1 = obter_preco_produto(nome_p1)
-    preco_p2 = obter_preco_produto(nome_p2)
-    preco_p3 = obter_preco_produto(nome_p3)
+    menor_preco = produtos[0][1]
+    for produto in produtos:
+        if produto[1] < menor_preco:
+            menor_preco = produto[1]
+        
+    produto_mais_barato = []
+    for produto in produtos:
+        if produto[1] == menor_preco:
+            produto_mais_barato.append(produto[0])
+            
+    return produto_mais_barato
 
-    if preco_p1 < preco_p2 and preco_p1 < preco_p3:
-        return preco_p1
-    elif preco_p2 < preco_p1 and preco_p2 < preco_p3:
-        return preco_p2
-    else:
-        return preco_p3
-    
-    
+
 def main():
-    produto_mais_barato = encontrar_produto_mais_barato()
-    print(f'O Produto mais barato custa: {produto_mais_barato}')
-    
-    
+    prod_mais_baratos = encontrar_produto_mais_barato()
+    if len(prod_mais_baratos) == 1:
+        print(f'O produto mais barato é: {prod_mais_baratos[0]}\n')
+        
+
 if __name__ == '__main__':
     main()
